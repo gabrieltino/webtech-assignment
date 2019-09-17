@@ -21,3 +21,15 @@ body {
     content: 'Email:';
     color: rgba(112, 173, 19, 0.884);
 }
+
+@media screen and (max-width: 435px) {
+.navbar-brand-responsive {
+font-size: 12px;
+}
+}
+
+@media screen and (max-width: 305px) {
+.navbar-brand-responsive {
+font-size: 8px;
+}
+}
