@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(243, 240, 229);
+    margin: 0;
+}
+
+.add::before {
+    content: 'Address:';
+    color: rgba(112, 173, 19, 0.884);
+}
+
+.phone::before {
+    content: 'Phone:';
+    color: rgba(112, 173, 19, 0.884);
+}
+
+.envelope::before {
+    content: 'Email:';
+    color: rgba(112, 173, 19, 0.884);
+}
